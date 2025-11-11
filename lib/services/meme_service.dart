@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/meme.dart';
 
 class MemeService {
-  static const String _baseUrl = 'https://raw.githubusercontent.com/mike14082025/getMemePicture/refs/heads/main/getAll';
+  static const String _baseUrl = 'https://raw.githubusercontent.com/thetzawlatt77-cell/getMemePicture/refs/heads/main/getAll';
 
   /// Fetches meme templates from the GitHub API
   Future<List<Meme>> fetchMemes() async {
